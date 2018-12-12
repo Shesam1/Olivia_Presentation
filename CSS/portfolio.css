@@ -1,0 +1,132 @@
+body {
+  background-color: #FCE9EA;
+  font-family: sans-serif, "Times New Roman";
+  /*color: #1A0D39;*/
+/*Sherill's Changes*/
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../Images/Oliviabg.jpg");
+    /*opacity: 0.5;*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#container{
+  background-color: #FCE9EA;
+  height: 35em;
+  width: 72em;
+  border: 5px solid orange;
+
+}
+
+#header{
+  padding: 0.5em;
+  border: 5px solid lightgreen;
+  width: 100;
+  text-align: center;
+  background-color: #F3AAAE;
+  position: relative;
+}
+
+
+#navigation{
+  border: 5px solid green;
+  width: 12em;
+  float:left;
+  height: 75%;
+
+}
+
+.nav:hover{
+  color: purple;
+  font-weight: bolder;
+}
+
+
+#main{
+  border: 5px solid black;
+  width: 70%;
+  height: 75%;
+  position:relative;
+  display: inline-block;
+  float: right;
+  padding-left: 1em;
+  margin-left: 20px;
+}
+
+#main-skill{
+  border: 5px solid black;
+  width: 70%;
+  height: 85%;
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding-left: 1em;
+  margin-left: 20px;
+
+}
+
+
+.htmlcss{
+  width: 65%;
+  height: 60%;
+}
+
+.phpimg{
+  width: 10%;
+  height: 5%;
+}
+.oli{
+height:40%;
+width: 25%;
+display: inline-block;
+/*margin-left: 8em;*/
+border-radius: 50%;
+
+}
+
+.sun-img{
+  height: 60%;
+  width: 90%;
+}
+
+
+.link{
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+  color: #1A0D39;
+  text-weight: bold;
+}
+
+.link:hover{
+  color: purple;
+  font-weight: bolder;
+  text-shadow: 0.5px 0.5px grey;
+}
+
+.sleft{
+  border: 5px solid lightgrey;
+}
+.smiddle{
+  border: 5px solid lightgrey;
+}
+.sright{
+  border: 5px solid lightgrey;
+}
+#footer{
+  border: 5px solid lightgrey;
+  position: fixed;
+  bottom:0;
+  height:2em;   /* Height of the footer */
+  text-align: center;
+  background-color: #F3AAAE;
+  padding-bottom: 50px;
+  width: 70.5em;
+  margin: 0 auto;
+
+
+}
